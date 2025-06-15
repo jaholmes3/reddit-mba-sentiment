@@ -1,6 +1,6 @@
 streamlit
 google-generativeai
-pinecone-client
+pinecone
 pandas
 requests
 textblob
