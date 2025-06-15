@@ -1,0 +1,7 @@
+%%writefile requirements.txt
+streamlit
+google-generativeai
+pinecone-client
+pandas
+requests
+textblob
