@@ -1,0 +1,39 @@
+Certainly! Looking back at our conversation and the analysis we've done, here are some useful prompts you could try with your RAG system to explore the data:
+
+Prompts related to general MBA topics and insights:
+
+"Summarize the posts and give insights on the value of an MBA degree."
+"What are common reasons people give for pursuing an MBA?"
+"Describe the typical MBA student experience based on these posts."
+"What advice do people offer regarding MBA applications?"
+"What are the challenges mentioned about the MBA curriculum?"
+Prompts related to job prospects and careers:
+
+"What are people saying about post-MBA job opportunities in consulting?"
+"Summarize the discussions about tech careers after an MBA."
+"What is the sentiment regarding finding a job after graduating from an MBA program?"
+"What are the most frequently mentioned companies or industries for MBA graduates in these posts?"
+Prompts related to sentiment and community feelings:
+
+"What is the overall sentiment expressed about the MBA experience in these posts?" (The RAG system will retrieve relevant posts and the LLM will summarize the sentiment within them).
+"Are there any discussions about negative aspects of getting an MBA?"
+"What makes people feel positive about their MBA programs?"
+Prompts related to current events or specific contexts (like the political environment we discussed):
+
+"How is the current economic climate affecting discussions about MBA job outcomes?"
+"Are there mentions of specific global events impacting MBA programs or careers?"
+Choose a prompt that interests you and enter it into your Streamlit app to see what insights the RAG system can provide based on your indexed Reddit data!
+
+there is one question related to student visa and EU students going to an EU school vs the US. the same would be for Asian students staying in Asia vs the us. and even the US students going to EU or Asia. could this be an other prompt category>
+Yes, absolutely! That's an excellent and very relevant prompt category to add, especially considering the international nature of many MBA programs and the complexities around student visas and regional job markets.
+
+Discussions about international students' choices between schools in the EU, US, or Asia, and the related visa implications, are definitely topics that would likely appear in the r/MBA subreddit.
+
+Here are some prompts you could use within this category:
+
+"What are the challenges EU students discuss when considering MBA programs in the US versus the EU?"
+"Summarize the discussions about student visas for international students applying to US MBA programs."
+"What are the pros and cons mentioned for Asian students pursuing an MBA in the US compared to staying in Asia?"
+"Are there posts discussing US students considering MBA programs in Europe or Asia?"
+"What are the visa concerns for international MBA graduates seeking employment?"
+Using prompts like these will allow your RAG system to retrieve relevant discussions from your indexed data and provide insights based on the experiences and perspectives shared by the Reddit community on these specific international student topics.
