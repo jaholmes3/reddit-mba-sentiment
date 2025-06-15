@@ -50,7 +50,8 @@ except Exception as e:
 
 
 # Initialize the Gemini generative model
-generative_model = genai.GenerativeModel('gemini-1.5-flash-latest') # Changed model name
+#generative_model = genai.GenerativeModel('gemini-1.5-flash-latest') # Changed model name
+generative_model = genai.GenerativeModel('gemini-1.5-pro-latest') # Changed model name
 
 # Define a function to truncate text
 def truncate_text(text, max_length=30000): # Adjust max_length as needed, staying below 36000
