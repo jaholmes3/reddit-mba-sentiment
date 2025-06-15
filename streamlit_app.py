@@ -11,8 +11,8 @@ from textblob import TextBlob
 from datetime import datetime
 # Removed google.colab.userdata as it's not available in Streamlit
 
-st.title("Reddit MBA Sentiment Analysis and RAG")
-st.write("This application analyzes sentiment of Reddit posts from the MBA subreddit and provides answers to your questions using a RAG system based on the post content.")
+st.title("Reddit MBA Sentiment Analysis")
+st.write("This application analyzes sentiment of Reddit posts from the MBA subreddit and provides answers to your questions using a LLM/RAG system based on the post content.")
 
 # Securely handle API keys using Streamlit Secrets
 # Create a .streamlit/secrets.toml file with your API keys:
